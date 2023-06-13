@@ -24,9 +24,8 @@
       vertical-align: center;
       flex-wrap: wrap;
       align-content: center;
-
       color: #2a2b2c;
-      background-color: #ebedee;
+      background-color: #fff;
       overflow: hidden;
     }
     .card {
@@ -69,17 +68,17 @@
 </head>
 <body>
   <div class="card">
-    <h5 class="card-header">🎁 Shorten your URLs !</h5>
+    <h5 class="card-header">短网址生成器</h5>
     <div class="card-body">
-      <h5 class="card-title">Please enter the long URL to be shortened :</h5>
+      <h5 class="card-title">输入原网址：</h5>
       <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Example: https://example.com/" id="text">
         <div class="input-group-append">
-          <button class="btn btn-primary" type="button" onclick='shorturl()' id="searchbtn">Shorten it</button>
+          <button class="btn btn-primary" type="button" onclick='shorturl()' id="searchbtn">缩短</button>
         </div>
       </div>    
       <div class="card-text">
-        <a href="https://github.com/xyTom/Url-Shorten-Worker/" target="_self">Fork me on GitHub</a>
+        <a href="https://dash.cloudflare.com/92b57b2be00a738da9c5f19517bda4bc/workers/kv/namespaces/63fb970252af44d88d32eb07fe4abb1a" target="_self">修改已有短链接</a>
       </div>
       <p id="notice"></p>             
     </div>
